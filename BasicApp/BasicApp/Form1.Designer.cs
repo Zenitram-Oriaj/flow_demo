@@ -68,8 +68,11 @@
 			this.toolStripSeparator7 = new System.Windows.Forms.ToolStripSeparator();
 			this.helpToolStripButton = new System.Windows.Forms.ToolStripButton();
 			this.statusStrip1 = new System.Windows.Forms.StatusStrip();
+			this.pnlCalendar = new System.Windows.Forms.Panel();
+			this.monthCalendar1 = new System.Windows.Forms.MonthCalendar();
 			this.menuStrip1.SuspendLayout();
 			this.toolStrip1.SuspendLayout();
+			this.pnlCalendar.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// menuStrip1
@@ -416,11 +419,26 @@
 			this.statusStrip1.TabIndex = 2;
 			this.statusStrip1.Text = "statusStrip1";
 			// 
+			// pnlCalendar
+			// 
+			this.pnlCalendar.Controls.Add(this.monthCalendar1);
+			this.pnlCalendar.Location = new System.Drawing.Point(12, 52);
+			this.pnlCalendar.Name = "pnlCalendar";
+			this.pnlCalendar.Size = new System.Drawing.Size(524, 395);
+			this.pnlCalendar.TabIndex = 3;
+			// 
+			// monthCalendar1
+			// 
+			this.monthCalendar1.Location = new System.Drawing.Point(9, 9);
+			this.monthCalendar1.Name = "monthCalendar1";
+			this.monthCalendar1.TabIndex = 0;
+			// 
 			// Form1
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(548, 472);
+			this.Controls.Add(this.pnlCalendar);
 			this.Controls.Add(this.statusStrip1);
 			this.Controls.Add(this.toolStrip1);
 			this.Controls.Add(this.menuStrip1);
@@ -431,6 +449,7 @@
 			this.menuStrip1.PerformLayout();
 			this.toolStrip1.ResumeLayout(false);
 			this.toolStrip1.PerformLayout();
+			this.pnlCalendar.ResumeLayout(false);
 			this.ResumeLayout(false);
 			this.PerformLayout();
 
@@ -480,6 +499,8 @@
 		private System.Windows.Forms.ToolStripSeparator toolStripSeparator7;
 		private System.Windows.Forms.ToolStripButton helpToolStripButton;
 		private System.Windows.Forms.StatusStrip statusStrip1;
+		private System.Windows.Forms.Panel pnlCalendar;
+		private System.Windows.Forms.MonthCalendar monthCalendar1;
 	}
 }
 
